@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel y Tijera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Proyecto de JavaScript</h1>
+    </header>
+
+    <div class="score-board">
+        <div class="badge" id="user-label">User</div>
+        <div class="badge" id="computer-label">PC</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>¡Juguemos Piedra, Papel o Tijeras!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="rock.png" alt="Rock">
+        </div>
+        <div class="choice" id="p">
+            <img src="paper.png" alt="Paper">
+        </div>
+        <div class="choice" id="s">
+            <img src="scissors.png" alt="scissors">
+        </div>
+    </div>
+    <p id="action-message">Haz tu movimiento</p>
+    <button id="rules">
+        <a href="#" class="hero__cta">Reglas</a>
+    </button>
+
+    
+
+    <section class="modal ">
+        <div class="modal__container">
+            <img src="rock-paper-scissors.png" class="modal__img">
+            <h2 class="modal__title">Piedra, Papel o Tijera</h2>
+            <p class="modal__paragraph">Las reglas básicas del juego "Piedra, Papel o Tijeras" son las siguientes:</p>
+            <p class="modal__paragraph">1. El juego se juega entre dos jugadores. (Tú vs PC)</p>
+            <p class="modal__paragraph">2. Los jugadores eligen entre Piedra, Papel o Tijera.</p>
+            <p class="modal__paragraph">3. La Piedra vence a las Tijeras (rompiéndolas).</p>
+            <p class="modal__paragraph">4. Las Tijeras vencen al Papel (cortándolo).</p>
+            <p class="modal__paragraph">5. El Papel vence a la Piedra (envolviéndola).</p>
+            <p class="modal__paragraph">6. Si se eligen la misma opción, se considera un empate.</p>
+            <a href="#" class="modal__close">Cerrar</a>
+        </div>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
